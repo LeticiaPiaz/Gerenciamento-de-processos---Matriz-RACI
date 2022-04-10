@@ -1,35 +1,18 @@
 {
-  "private": true,
-  "scripts": {
-    "dev": "npm run development",
-    "development": "mix",
-    "watch": "mix watch",
-    "watch-poll": "mix watch -- --watch-options-poll=1000",
-    "hot": "mix watch --hot",
-    "prod": "npm run production",
-    "production": "mix --production"
-  },
-  "devDependencies": {
-    "axios": "^0.21",
-    "laravel-mix": "^6.0.6",
-    "lodash": "^4.17.19",
-    "postcss": "^8.1.14"
-  },
-  "name": "gerenciamento-de-processos---matriz-raci",
-  "description": "Feito em PHP, Laravel, Mysql, Botstrp, CSS e HTML o programa tem como intuito cadastrar os processos com suas atividades, participantes, responsabilidades e acompanhar o progresso.",
-  "version": "1.0.0",
-  "main": "webpack.mix.js",
-  "directories": {
-    "test": "tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeticiaPiaz/Gerenciamento-de-processos---Matriz-RACI.git"
-  },
-  "author": "Leticia Piaz Reichardt",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LeticiaPiaz/Gerenciamento-de-processos---Matriz-RACI/issues"
-  },
-  "homepage": "https://github.com/LeticiaPiaz/Gerenciamento-de-processos---Matriz-RACI#readme"
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    }
 }
