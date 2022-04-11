@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    font-size: calc(1vw + 16px);
+}
+
+.header {
+    position: relative;
+    height: 50vh;
+    background-image: url('images/loginBg.jpg');
+    background-size: cover;
+    background-position-y: 100%;
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #1a202c;
+    text-shadow: 1px 1px 5px #a0aec0;
+}
+
+.content {
+}
