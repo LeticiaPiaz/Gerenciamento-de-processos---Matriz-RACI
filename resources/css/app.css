@@ -1,14 +1,14 @@
 /* Cores do projeto */
 .backgroundProjeto {
-    background-color: #E1E1E1;
+    background-color: #aae3fa;
 }
 
 .colorPrimary {
-    background-color: #C4C4C4;
+    background-color: #86d8f1;
 }
 
 .colorSecondary {
-    background-color: #727272;
+    background-color: #2eccf3;
 }
 
 .colorBlack {
@@ -17,7 +17,7 @@
 
 .colorYellow {
     /* background-color: #9c901e; */
-    background-color: rgba(156,144,30,0.4);
+    background-color: rgba(35, 107, 201, 0.664);
 }
 /* transparencia */
 .transparency1 {
@@ -39,7 +39,7 @@
 }
 
 .textColorYellow {
-    color: #c0b126;
+    color: #1a96a7;
 }
 
 .textColorRed {
@@ -71,7 +71,7 @@
 /* COMPONENTES */
 /* LABELs */
 .label1 {
-    background-color: #727272;
+    background-color: #8dc7fd;
 }
 
 .filtroLateral {

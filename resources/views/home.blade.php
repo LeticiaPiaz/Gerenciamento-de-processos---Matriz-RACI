@@ -2,21 +2,29 @@
 
 @section('content')
 
-<div class="row col-md-12  mt-3 p-5 ">
+<div class="row col-md-12  m-2 p-5 ">
     <div class="col-md-11">
         <!-- <div class="filtroLateral colorPrimary p-5 mb-5"> -->
-        <h5 class="textCenter mb-3 title1">Processos em aberto</h5>
+        <h5 class="textCenter mb-5 title1">Processos em aberto</h5>
         
         <button class="backgroundList btn bg-light my-2 p-3 col-md-12">
-                <div class="row ">
+                <div class="p-3">
                         <!-- <div class="img_arquivo"></div> -->
                         <!-- <img src="" style="width: 100px;"> -->
                         <!-- <img src="{{ asset('images/file-alt-solid.png') }}" /> -->
-                    <div class="col-md-5">
+                    <div class="col-md-12 mb-5">
                         <h5 class="">Implementação de um novo sistema na empresa</h5>
                     </div>
-                    <div class="col-md-5">
-                        <p class="m-0">Implementação de um novo sistema na empresa</p>
+                    <div class="row col-md-12">
+                        <div class="col-md-5">
+                            <p class="m-0">Implementação de um novo sistema na empresa</p>
+                        </div>
+                        <div class="col-md-5">
+                            <p class="m-0">Implementação de um novo sistema na empresa</p>
+                        </div>
+                        <div class="col-md-5">
+                            <p class="m-0">Implementação de um novo sistema na empresa</p>
+                        </div>
                         <p class="m-0">Assunto:</p>
                         <p class="m-0">Assunto:</p>
                     </div>
