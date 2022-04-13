@@ -59,17 +59,17 @@
     display: block !important;
 }
 
-// Cores do projeto
+/* Cores do projeto */
 .backgroundProjeto {
-    background-color: #E1E1E1;
+    background-color: #aae3fa;
 }
 
 .colorPrimary {
-    background-color: #C4C4C4;
+    background-color: #86d8f1;
 }
 
 .colorSecondary {
-    background-color: #727272;
+    background-color: #2eccf3;
 }
 
 .colorBlack {
@@ -77,16 +77,16 @@
 }
 
 .colorYellow {
-    // background-color: #9c901e;
-    background-color: rgba(156,144,30,0.4);
+    /* background-color: #9c901e; */
+    background-color: rgba(35, 107, 201, 0.664);
 }
-// transparencia
+/* transparencia */
 .transparency1 {
     opacity: 0.5;
 }
 
-// TEXTO
-// Cor
+/* TEXTO */
+/* Cor */
 .textColorWhite {
     color: white;
 }
@@ -100,14 +100,14 @@
 }
 
 .textColorYellow {
-    color: #c0b126;
+    color: #1a96a7;
 }
 
 .textColorRed {
     color: rgb(134, 30, 12);
 }
 
-// Tamanhos
+/* Tamanhos */
 .title1 {
     font-size: 30px;
 }
@@ -123,16 +123,16 @@
 .text3 {
     font-size: 20px;
 }
-// Alinhamento
+/* Alinhamento */
 .textCenter {
     text-align: center;
 }
 
 
-// COMPONENTES
-// LABELs
+/* COMPONENTES */
+/* LABELs */
 .label1 {
-    background-color: #727272;
+    background-color: #8dc7fd;
 }
 
 .filtroLateral {
@@ -140,7 +140,7 @@
 }
 
 
-// lista Processos
+/* lista Processos */
 .listProcesso {
     color: black;
     text-decoration: none
@@ -154,26 +154,26 @@
     color: rgb(34, 34, 34);
 }
 
-// a:link {
-//     color: #00F;
-//     background-color: rgb(56, 56, 54);
-// }
+/* a:link {
+    color: #00F;
+    background-color: rgb(56, 56, 54);
+ }
    
-// a:hover {
-//     color: #F00;
-//     background-color: rgb(39, 33, 126);
-// }
+ a:hover {
+     color: #F00;
+     background-color: rgb(39, 33, 126);
+ }
 
-// a:visited {
-//     color: #F00;
-//     background-color: rgb(39, 33, 126);
-// }
+ a:visited {
+     color: #F00;
+     background-color: rgb(39, 33, 126);
+ } */
 
 a:active {
     background-color: black;
 }
 
-// buttons
+/* buttons */
 
 .buttonExcluir {
     color: rgb(34, 34, 34);

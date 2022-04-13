@@ -24,3 +24,5 @@ Auth::routes();
 // });
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/register', [App\Http\Controllers\Auth\RegisterController::class, 'create'])->name('register');
+Route::get('/process', [App\Http\Controllers\ProcessController::class, 'create'])->name('process');

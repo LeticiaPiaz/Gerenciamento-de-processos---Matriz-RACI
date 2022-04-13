@@ -10,6 +10,137 @@
     <!-- Fonts --><link rel="dns-prefetch" href="//fonts.gstatic.com">
     <!-- Styles --><link href="../css/app.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c02e5ac7f3.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* Cores do projeto */
+.backgroundProjeto {
+    background-color: #aae3fa;
+}
+
+.colorPrimary {
+    background-color: #86d8f1;
+}
+
+.colorSecondary {
+    background-color: #2eccf3;
+}
+
+.colorBlack {
+    background-color: black;
+}
+
+.colorYellow {
+    /* background-color: #9c901e; */
+    background-color: rgba(35, 107, 201, 0.664);
+}
+/* transparencia */
+.transparency1 {
+    opacity: 0.5;
+}
+
+/* TEXTO */
+/* Cor */
+.textColorWhite {
+    color: white;
+}
+
+.textColorGray {
+    color: #4A4A4A;
+}
+
+.textColorBlack {
+    color: black;
+}
+
+.textColorYellow {
+    color: #1a96a7;
+}
+
+.textColorRed {
+    color: rgb(134, 30, 12);
+}
+
+/* Tamanhos */
+.title1 {
+    font-size: 30px;
+}
+.title2 {
+    font-size: 20px;
+}
+.title3 {
+    font-size: 20px;
+}
+.text1 {
+    font-size: 20px;
+}
+.text3 {
+    font-size: 20px;
+}
+/* Alinhamento */
+.textCenter {
+    text-align: center;
+}
+
+
+/* COMPONENTES */
+/* LABELs */
+.label1 {
+    background-color: #8dc7fd;
+}
+
+.filtroLateral {
+    right: auto;
+}
+
+
+/* lista Processos */
+.buttons {
+    color: white;
+    text-decoration: none
+}
+
+.backgroundList:hover {
+    background-color: rgba(156,144,30,0.4);
+}
+
+.buttons:hover {
+    color: white;
+}
+
+/* a:link {
+    color: #00F;
+    background-color: rgb(56, 56, 54);
+ }
+   
+ a:hover {
+     color: #F00;
+     background-color: rgb(39, 33, 126);
+ }
+
+ a:visited {
+     color: #F00;
+     background-color: rgb(39, 33, 126);
+ } */
+
+a:active {
+    background-color: black;
+}
+
+/* buttons */
+
+.buttonExcluir {
+    color: rgb(34, 34, 34);
+    background-color: rgba(156, 30, 30, 0.4);
+}
+
+.buttonEdit {
+    color: rgb(34, 34, 34);
+    background-color: rgba(156,144,30,0.4);
+}
+    </style>
+    
+    
 </head>
 <body class="backgroundProjeto">
     <div id="app">
@@ -27,10 +158,14 @@
                 <div class="collapse navbar-collapse ml-5" id="navbarTogglerDemo03">
                     <ul class="navbar-nav me-auto ml-5 mb-2 mb-lg-0">
                         <li class="nav-item">
-                            
+                            @if (Auth::user()->name == "admin")
+                                <a class="nav-link" href="{{ route('home') }}">{{ __('Home') }}</a>
+                            @endif
                         </li>
                         <li class="nav-item">
-                            
+                            @if (Auth::user()->name == "admin")
+                                <a class="nav-link" href="{{ route('process') }}">{{ __('Cadastro processos') }}</a>
+                            @endif
                         </li>
                     </ul>
                     <ul class="navbar-nav d-flex">

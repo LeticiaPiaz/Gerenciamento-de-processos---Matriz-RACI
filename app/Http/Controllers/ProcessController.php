@@ -14,7 +14,10 @@ class ProcessController extends Controller
      */
     public function index()
     {
-        //
+        // if(Auth::user()->name == "admin"){
+        //     return view('home');
+        // }
+        
     }
 
     /**
@@ -24,7 +27,10 @@ class ProcessController extends Controller
      */
     public function create()
     {
-        //
+        return view('cadastroProcess');
+        // if(Auth::user()->name == "admin"){
+        //     return view('cadastroProcess');
+        // }
     }
 
     /**
