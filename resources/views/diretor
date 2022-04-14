@@ -19,35 +19,162 @@
                         </tr>
                         <tr>
                             <td>Conhecimento da instalação do novo sistema</td>
-                            <th class="bg-info py-1 px-3" scope="row">I</th>
-                            <th class="bg-danger py-1 px-3" scope="row">R</th>
-                            <th class="bg-warning py-1 px-3" scope="row">A</th>
-                            <th class="bg-info py-1 px-3" scope="row">I</th>
-                            <th class="bg-success py-1 px-3" scope="row">C</th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+
                         </tr>
                         <tr>
-                            <td>Analise do necessário para a implantação</td>
-                            <th class="bg-info py-1 px-3" scope="row">I</th>
-                            <th class="bg-secondary py-1 px-3" scope="row">C</th>
-                            <th class="bg-secondary py-1 px-3" scope="row">R</th>
-                            <th class="bg-warning py-1 px-3" scope="row">A</th>
-                            <th class="bg-info py-1 px-3" scope="row">I</th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+
                         </tr>
                         <tr>
                             <td>Controle das etapas de instalação</td>
                             <th class=" py-1 px-3" scope="row"></th>
-                            <th class="bg-secondary py-1 px-3" scope="row">I</th>
-                            <th class="bg-warning py-1 px-3" scope="row">A</th>
-                            <th class="bg-secondary py-1 px-3" scope="row">C</th>
-                            <th class="bg-secondary py-1 px-3" scope="row">R</th>
+                             <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+
                         </tr>
                         <tr>
                             <td>Controle das etapas de instalação</td>
-                            <th class="bg-secondary py-1 px-3" scope="row">R</th>
-                            <th class="bg-warning py-1 px-3" scope="row">A</th>
-                            <th class="bg-secondary py-1 px-3" scope="row">I</th>
-                            <th class="bg-secondary py-1 px-3" scope="row">I</th>
-                            <th class="bg-secondary py-1 px-3" scope="row">I</th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
+                            <th class="mx-4 btn bg-info py-1 px-3" scope="row">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">I</option>
+                                    <option value="2">R</option>
+                                    <option value="3">C</option>
+                                    <option value="4">A</option>
+                                </select>                            
+                            </th>
                         </tr> 
                     </tbody>
                 </table>
