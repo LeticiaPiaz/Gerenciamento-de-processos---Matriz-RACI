@@ -26,3 +26,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/register', [App\Http\Controllers\Auth\RegisterController::class, 'create'])->name('register');
 Route::get('/process', [App\Http\Controllers\ProcessController::class, 'create'])->name('process');
+Route::get('/processo-cadastro', [App\Http\Controllers\ProcessController::class, 'store'])->name('processCadastro');
+Route::get('/atividade', [App\Http\Controllers\ActivityController::class, 'show'])->name('activity');
